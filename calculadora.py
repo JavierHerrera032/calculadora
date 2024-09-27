@@ -7,7 +7,7 @@ def click(boton):
     entrada.delete(0, tk.END)
     entrada.insert(0, actual + str(boton))
 
-# Función para limpiar la pantalla
+# Función para limpiar la pantalla amen
 def clear():
     entrada.delete(0, tk.END)
 
